@@ -1,11 +1,6 @@
 <div class="flex-container">
-  <div class="flex-1">
-    <b>123</b> <span>Order Pipeline</span>
-  </div>
-  <div class="flex-1">
-    <b>123</b> <span>Order Pipeline</span>
-  </div>
-  <div class="flex-1">
-    <b>123</b> <span>Order Pipeline</span>
+  <div *ngFor="let status of orderStatus" class="flex-1">
+    <div><b>{{status.statusCount}}</b></div>
+    <div>{{status.statusName}}</div>
   </div>
 </div>
