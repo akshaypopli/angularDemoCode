@@ -6,8 +6,8 @@ import { FormsModule } from '@angular/forms';
 import { StatusBarComponent } from './status-bar/status-bar.component';
 import { HeaderBarComponent } from './header-bar/header-bar.component';
 import { OrderStatusComponent } from './order-status/order-status.component';
-import { PaginationComponent } from './shared/src/app/shared/pagination/pagination.component';
-import { OrderComponent } from './shared/src/app/shared/order/order.component'; 
+import { PaginationComponent } from './shared/pagination/pagination.component';
+import { OrderComponent } from './shared/order/order.component'; 
 const appRoutes=[];
 @NgModule({
   declarations: [
