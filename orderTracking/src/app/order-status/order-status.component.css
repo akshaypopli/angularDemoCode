@@ -1,0 +1,32 @@
+/* 
+.stage-container {
+    margin: 0 auto;
+}
+
+.order-stage-line {
+    border-top: 3px solid #000;
+    width: 80%;
+    position: relative;
+    top: 17px;
+    z-index: -1;
+}
+
+.order-stage {
+    display: inline-block;
+    width: 150px;
+}
+
+.order-stage-count {
+    background-color: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.order-stage-name {
+    font-size: 12px;
+    width: 150x;
+    
+} */

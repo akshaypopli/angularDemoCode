@@ -13,7 +13,7 @@ export class StatusBarComponent implements OnInit {
     {statusCount: 120, statusName: 'New Orders'},
     {statusCount: 132, statusName: 'In Process'},
     {statusCount: 405, statusName: 'Shipped'},
-    {statusCount: 54, statusName: 'Damaged'},
+    {statusCount: 54, statusName: 'Late'},
     {statusCount: 77, statusName: 'Return'},
   ]
   
